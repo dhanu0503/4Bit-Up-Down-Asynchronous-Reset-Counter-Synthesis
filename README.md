@@ -51,6 +51,11 @@ used.
 ![Screenshot (106)](https://github.com/user-attachments/assets/7b02cdbc-ae07-4d20-bf3b-6413ca359964)
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 #### Area report:
 
@@ -62,6 +67,9 @@ used.
 
 ![Screenshot (103)](https://github.com/user-attachments/assets/13ccf5ab-aecc-43ac-b7fd-1674b846c569)
 
+<br>
+<br>
+<br>
 <br>
 
 #### Timing Report: 
