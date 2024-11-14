@@ -11,8 +11,7 @@ Synthesize 4Bit-Up-Down-Asynchronous-Reset-Counter design using Constraints and 
 #### Step 1: Getting Started
 
 - Synthesis requires three files as follows,
-   + Liberty Files (.lib)
-   + Verilog/VHDL Files (.v or .vhdl or .vhd)
+   + Liberty Files (.lib) &sim; + Verilog/VHDL Files (.v or .vhdl or .vhd)
    + SDC (Synopsis Design Constraint) File (.sdc)
 
 #### Step 2 : Creating an SDC File
@@ -27,17 +26,13 @@ Synthesize 4Bit-Up-Down-Asynchronous-Reset-Counter design using Constraints and 
         set_input_delay -max 0.8 [get_ports "rst"] -clock [get_clocks "clk"]
         set_output_delay -max 0.8 [get_ports "count"] -clock [get_clocks "clk"]
 
-<br>
-<br>
-<br>
+i) Creates a Clock named “clk” with Time Period 2ns and On Time from t=0 to t=1.
 
-i) Creates a Clock named “clk” with Time Period 2ns and On Time from t=0 to t=1.</br>
+ii) Sets Clock Rise and Fall time to 100ps.
 
-ii) Sets Clock Rise and Fall time to 100ps.</br>
+iii) Sets Clock Uncertainty to 10ps.
 
-iii) Sets Clock Uncertainty to 10ps.</br>
-
-iv) Sets the maximum limit for I/O port delay to 1ps.</br>
+iv) Sets the maximum limit for I/O port delay to 1ps.
 
 #### Step 3 : Performing Synthesis
 
@@ -55,13 +50,19 @@ used.
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/7b02cdbc-ae07-4d20-bf3b-6413ca359964)
 
+<br>
+
 #### Area report:
 
 ![Screenshot (105)](https://github.com/user-attachments/assets/cd516bb1-2dcb-40f1-afd2-410bac47cb44)
 
+<br>
+
 #### Power Report:
 
 ![Screenshot (103)](https://github.com/user-attachments/assets/13ccf5ab-aecc-43ac-b7fd-1674b846c569)
+
+<br>
 
 #### Timing Report: 
 
