@@ -34,6 +34,8 @@ iii) Sets Clock Uncertainty to 10ps.
 
 iv) Sets the maximum limit for I/O port delay to 1ps.
 
+<br>
+
 #### Step 3 : Performing Synthesis
 
 The Liberty files are present in the library path,
@@ -50,6 +52,8 @@ used.
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/7b02cdbc-ae07-4d20-bf3b-6413ca359964)
 
+<br>
+<br>
 <br>
 <br>
 <br>
