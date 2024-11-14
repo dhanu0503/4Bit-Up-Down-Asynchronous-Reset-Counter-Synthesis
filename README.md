@@ -60,6 +60,7 @@ used.
 <br>
 <br>
 <br>
+<br>
 
 #### Area report:
 
@@ -71,6 +72,9 @@ used.
 
 ![Screenshot (103)](https://github.com/user-attachments/assets/13ccf5ab-aecc-43ac-b7fd-1674b846c569)
 
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
